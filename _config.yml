@@ -6,8 +6,6 @@ description : Open Source Software & Hardware
 url         : https://blog.lsong.org
 permalink   : /:year/:month/:title.html
 icon        : /img/rocket.png
-# disqus shortname
-disqus      : lsong
 # Build settings
 analytics   : 'UA-42621148-5'
 # Social Network

@@ -16,14 +16,6 @@
   font-family: "Georgia", "SimSun", sans-serif;
 }
 
-.yue ::-moz-selection {
-  background-color: rgba(0,0,0,0.2);
-}
-
-.yue ::selection {
-  background-color: rgba(0,0,0,0.2);
-}
-
 .yue h1,
 .yue h2,
 .yue h3,
