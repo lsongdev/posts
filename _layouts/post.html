@@ -1,21 +1,24 @@
 ---
 layout: default
 ---
-<div class="post yue">
+
+<main class="post yue">
   <header class="post-header">
-    <h2>{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if
+      page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
   <article class="post-content">
-  {{ content }}
+    {{ content }}
   </article>
   <footer class="post-footer">
-    <div class="license">
-      <p>This file is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> license.</p>
-      <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="" />
-    </div>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">
+      <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0" />
+      CC BY-NC-SA 4.0
+    </a>
   </footer>
-</div>
-<div class="comments" >
+</main>
+
+<div class="comments">
   {% include comments.html %}
 </div>

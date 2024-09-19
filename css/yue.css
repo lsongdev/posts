@@ -7,13 +7,8 @@
  */
 
 .yue {
-  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
   color: #444443;
-}
-
-.windows .yue {
-  font-size: 16px;
-  font-family: "Georgia", "SimSun", sans-serif;
+  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
 }
 
 .yue h1,
@@ -22,16 +17,10 @@
 .yue h4,
 .yue h5,
 .yue h6 {
-  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
   color: #222223;
 }
 
 .yue h1 {
-  font-size: 1.8em;
-  margin: 0.67em 0;
-}
-
-.yue > h1 {
   margin-top: 0;
   font-size: 2em;
 }
@@ -53,10 +42,6 @@
   margin: 1.6em 0 1em 0;
 }
 
-.yue h6 {
-  font-weight: 500;
-}
-
 .yue p {
   margin-top: 0;
   margin-bottom: 1.46em;
@@ -65,13 +50,11 @@
 .yue a {
   color: #111;
   word-wrap: break-word;
-  -moz-text-decoration-color: rgba(0, 0, 0, 0.4);
   text-decoration-color: rgba(0, 0, 0, 0.4);
 }
 
 .yue a:hover {
   color: #555;
-  -moz-text-decoration-color: rgba(0, 0, 0, 0.6);
   text-decoration-color: rgba(0, 0, 0, 0.6);
 }
 
