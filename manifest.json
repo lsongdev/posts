@@ -1,11 +1,11 @@
 {
-  "name": "Liu Song’s Blog",
-  "short_name": "Lsong’s Blog",
+  "name": "Lsong’s Blog",
+  "short_name": "Blog",
   "description": "Lsong’s weblog, articles, comments and podcasts.",
   "id": "?type=blog",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000",
+  "theme_color": "#e8fbfe",
   "background_color": "#efefef",
   "icons": [
     {

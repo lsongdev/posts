@@ -5,13 +5,13 @@ email       : blog@lsong.org
 description : Open Source Software & Hardware
 url         : https://blog.lsong.org
 permalink   : /:year/:month/:title.html
-icon        : /img/rocket.png
+icon        : https://lsong.org/icon.png
 # Build settings
 analytics   : 'UA-42621148-5'
 # Social Network
-github      : 'song940'
-twitter     : 'song940'
-facebook    : 'song940'
+github      : 'lsongdev'
+twitter     : 'lsongdev'
+facebook    : 'lsongdev'
 google      : '+LiusongLsong'
 
 # Podcasts
