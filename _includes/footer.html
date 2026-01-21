@@ -1,26 +1,9 @@
-<hr />
-
-<section class="subscribe" id="subscribe">
-  <h2>Subscribe</h2>
-  <p>Join our occasional newsletter for product launches, availability, job openings, and news:</p>
-  <form action="https://formspree.io/song940@gmail.com" method="post" class="input-group width-full">
-    <input class="input input-block" type="email" id="email" name="email" required placeholder="email address">
-    <button class="button" type="submit">Submit</button>
-  </form>
-</section>
-
-<hr />
-
-<footer class="footer flex flex-jc-between">
-  <div class="text-left">
-    Liu Song
-    <address>
-      <a href="mailto:hi@lsong.org">hi@lsong.org</a>
-    </address>
-    <a href="https://lsong.org">https://lsong.org</a>
-  </div>
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">
-    <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA 4.0" />
-    <div>CC BY-NC-SA 4.0</div>
-  </a>
+<footer class="footer flex flex-jc-between flex-center">
+  <small>© {{ site.time | date: "%Y" }} Lsong</small>
+  <nav aria-label="Footer navigation">
+    <a href="/feed.xml">RSS</a>
+    <a href="https://github.com/lsongdev">GitHub</a>
+    <a href="mailto:hi@lsong.org">Email</a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">License</a>
+  </nav>
 </footer>

@@ -1,15 +1,13 @@
-<header class="header">
-  <a href="/" class="heading" >
-    <img src="https://lsong.org/icon.svg" alt="Logo" class="logo">
-    <h1 prefix="Lsong’s " class="title" title="{{ site.description | strip_html }}" >{{ site.title }}</h1>
+<header class="navbar site-header">
+  <a href="/" class="navbar-brand" aria-label="Lsong’s Posts home">
+    <img class="navbar-brand-mark" src="https://lsong.org/assets/web/icon-512.png" alt="" aria-hidden="true">
+    <span class="title" prefix="Lsong’s ">Posts</span>
   </a>
-  <nav id="navbar" class="nav nav-bar">
-    <a href="//lsong.org">home</a>
-    <a href="//lsong.org/posts">blog</a>
-    <a href="//lsong.org/books">books</a>
-    <a href="//lsong.org/music">music</a>
-    <a href="//lsong.org/start">apps</a>
-    <x-inbox></x-inbox>
+  <nav aria-label="Main navigation">
+    <a href="//lsong.org">Home</a>
+    <a class="active" href="//lsong.org/posts">Writing</a>
+    <a href="//lsong.org/books">Books</a>
+    <a href="//lsong.org/music">Music</a>
+    <a href="//lsong.org/start">Apps</a>
   </nav>
-  <hr />
 </header>

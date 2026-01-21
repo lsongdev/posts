@@ -1,4 +1,4 @@
-@import "//lsong.org/css/stylesheet.css";
+@import "//lsong.org/css/stylesheet.css?v=5";
 @import "yue.css";
 @import "highlight.css";
 
@@ -6,6 +6,16 @@
   font-size: 20px;
   font-family: Georgia, serif;
   padding-left: 0;
+}
+
+.rss-subscribe {
+  margin: 20px 0 0;
+  font-size: 14px;
+}
+
+.posts-page > .posts {
+  max-width: 720px;
+  margin-top: clamp(44px, 6vw, 72px);
 }
 
 .posts li {
@@ -50,4 +60,5 @@
   .posts .post-date {
     display: none;
   }
+
 }

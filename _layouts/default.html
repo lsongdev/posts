@@ -3,13 +3,19 @@
 {% include head.html %}
 
 <body>
-  <div class="container">
-    {% include header.html %}
-    <section class="content">
-      {{ content }}
+  {% include header.html %}
+  <main class="content">
+    {{ content }}
+    <section class="subscribe" id="subscribe" aria-labelledby="subscribe-title">
+      <h2 id="subscribe-title">Subscribe</h2>
+      <p>Occasional updates on new work and ideas.</p>
+      <form action="https://formspree.io/song940@gmail.com" method="post" class="input-group width-full">
+        <input class="input input-block" type="email" id="email" name="email" required placeholder="email address">
+        <button class="button" type="submit">Submit</button>
+      </form>
     </section>
-    {% include footer.html %}
-  </div>
+  </main>
+  {% include footer.html %}
 </body>
 {% include analytics.html %}
 </html>

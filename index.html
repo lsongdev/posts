@@ -1,26 +1,18 @@
 ---
 layout: default
-title: blog
+title: Articles and perspectives
 ---
 
-<section id="hello">
-  <h2>Hello 👋</h2>
-  <p class="headline">
-    Hi, I'm Liu Song, a full-stack developer with a passion for open-source software.
-    I have experience in web and mobile development, as well as a background in embedded systems and network
-    protocols.
-    I enjoy writing tech <a href="//lsong.org/posts">blogs</a> and developing <a href="//go.lsong.org/#apps">applications</a> in my spare time.
-    Proficient in Node.js, Golang, and server operations, I'm always eager to learn more and contribute to the
-    community.
-    Check out my GitHub <a href="//github.com/lsongdev">@lsongdev</a> for some of my projects and feel free to connect
-    with me to discuss ideas.
-    When I'm not coding, I enjoy listening to <a href="//lsong.org/music">music</a> and playing <a
-      href="//go.lsong.org/#games">games</a>.
-  </p>
-</section>
-
-<section id="posts">
-  <h2>Posts</h2>
+<section id="posts" class="posts-page">
+  <header class="site-hero">
+    <p class="eyebrow">Writing</p>
+    <h1 class="site-hero-title">Articles and <span>perspectives.</span></h1>
+    <p class="site-hero-copy">Long-form writing about software, technology, and the ideas that shape how we build.</p>
+    <div class="site-hero-actions">
+      {% assign latest_post = site.posts | first %}
+      <a class="button button-primary" href="{{ latest_post.url | prepend: site.baseurl }}">Read latest article</a>
+    </div>
+  </header>
   <ul class="posts">
     {% for post in site.posts %}
     <li>
@@ -29,5 +21,5 @@ title: blog
     </li>
     {% endfor %}
   </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe"><a href="/feed.xml">Subscribe via RSS ↗</a></p>
 </section>
