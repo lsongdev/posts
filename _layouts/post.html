@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<main class="post prose">
-  <header class="post-header">
-    <h2>{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if
+<article class="post prose" lang="{{ page.lang | default: 'zh-CN' }}">
+  <header class="post-header prose-header">
+    <h1 lang="{{ page.title_lang | default: 'en' }}">{{ page.title }}</h1>
+    <p class="meta prose-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}{% if
       page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-  <article class="post-content">
+  <section class="post-content">
     {{ content }}
-  </article>
+  </section>
   <footer class="post-footer">
   </footer>
-</main>
+</article>
 
 <div class="comments">
   {% include comments.html %}

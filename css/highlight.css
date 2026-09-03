@@ -2,11 +2,7 @@
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
-.highlight {
-  overflow: scroll; 
-  padding: 0 5px;
-  background: var(--code-block-background-color, #efefef);
-}
+/* The shared .prose pre owns layout and scrolling. Rouge wrappers only color tokens. */
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */

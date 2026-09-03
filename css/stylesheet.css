@@ -1,6 +1,12 @@
 @import "//lsong.org/css/stylesheet.css?v=6";
 @import "highlight.css";
 
+/* The site shell owns the measure and the space below its navigation. */
+.post.prose {
+  --prose-measure: none;
+  margin-top: clamp(44px, 6vw, 72px);
+}
+
 .posts {
   font-size: 20px;
   font-family: Georgia, serif;
